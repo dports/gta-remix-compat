@@ -1,7 +1,15 @@
 # GTA Remix Fixes
 An .asi modification for GTA games to make them compatible with RTX Remix(currently from Portal RTX)
 
-Download: LINK COMING SOON
+Download: https://github.com/dports/gta-remix-compat/releases/download/v1.0/remix_compat.asi
+
+## How to build:
+1. Install scoop.sh and Visual Studio 2022
+2. Install Experimental v143 C++ Modules
+3. ```scoop install vcpkg```
+4. ```vcpkg install wil:x86-windows-static```
+5. ```cmake . -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_TOOLCHAIN_FILE=%USERPROFILE%\\scoop\\apps\\vcpkg\\current\\scripts\\buildsystems\\vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x86-windows-static -A Win32```
+6. ```cmake --build . --config RelWithDebInfo --target remix_compat```
 
 ## How to use:
 1. Install ASI Loader
