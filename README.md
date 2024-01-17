@@ -1,6 +1,8 @@
 # GTA Remix Fixes
 An .asi modification for GTA games to make them compatible with RTX Remix(currently from Portal RTX)
 
+Download: LINK COMING SOON
+
 ## How to use:
 1. Install ASI Loader
 2. Install RTX Remix
